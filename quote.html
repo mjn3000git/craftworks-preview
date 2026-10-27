@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Request a Quote | Adirondack Craftworks</title>
+<meta name="description" content="Adirondack Craftworks: mobile property care and handyman services in Queensbury, Glens Falls, and Schroon Lake.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="images/logo-mark.png" type="image/png">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="preview-flag">Preview only. Not the live site.</div>
+<header class="bar">
+  <a class="brand" href="index.html" aria-label="Adirondack Craftworks, home"><img src="images/logo-mark.png" width="117" height="125" alt=""><span>Adirondack Craftworks</span></a>
+  <nav aria-label="Main">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="quote.html" class="nav-cta" aria-current="page">Request a Quote</a></li>
+    </ul>
+  </nav>
+</header>
+<div class="rope" aria-hidden="true"></div>
+
+<main id="main">
+  <section class="band navy">
+    <div class="wrap inquire">
+      <p class="kicker">Request a Quote</p>
+      <h2>Request a Quote</h2>
+      <p class="big">Tell us about the job and we will get back to you with pricing.</p>
+      <ul class="log">
+        <li><span>Email</span><a href="mailto:email@adirondackcraftworks.com">email@adirondackcraftworks.com</a></li>
+        <li><span>Phone</span><span class="ph">[PLACEHOLDER: phone number]</span></li>
+        <li><span>Service area</span>Queensbury, Glens Falls, and Schroon Lake</li>
+      </ul>
+      <form class="inquiry-form quote-form" action="https://formspree.io/f/maeeenav" method="POST" accept-charset="UTF-8">
+        <input type="hidden" name="_subject" value="Adirondack Craftworks quote request">
+        <div class="hp" aria-hidden="true"><label for="f-gotcha">Leave this field empty</label><input id="f-gotcha" type="text" name="_gotcha" tabindex="-1" autocomplete="off"></div>
+        <div class="f-row">
+          <div class="f-field"><label for="f-name">Name <span class="req">*</span></label><input id="f-name" name="name" type="text" autocomplete="name" required></div>
+          <div class="f-field"><label for="f-phone">Phone <span class="req">*</span></label><input id="f-phone" name="phone" type="tel" autocomplete="tel" required></div>
+        </div>
+        <div class="f-field"><label for="f-email">Email <span class="req">*</span></label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
+        <div class="f-row">
+          <div class="f-field"><label for="f-town">Town <span class="req">*</span></label>
+            <select id="f-town" name="town" required>
+              <option value="" selected disabled>Choose a town</option>
+              <option value="Queensbury">Queensbury</option>
+              <option value="Glens Falls">Glens Falls</option>
+              <option value="Schroon Lake">Schroon Lake</option>
+              <option value="Other">Other</option>
+            </select></div>
+          <div class="f-field"><label for="f-service">Service <span class="req">*</span></label>
+            <select id="f-service" name="service" required>
+              <option value="" selected disabled>Choose a service</option>
+              <option value="Seasonal camp open/close and home watch">Seasonal camp open/close and home watch</option>
+              <option value="Deck, porch, and siding refresh">Deck, porch, and siding refresh</option>
+              <option value="Small carpentry repairs">Small carpentry repairs</option>
+              <option value="Grab bars and railings">Grab bars and railings</option>
+              <option value="Haul-away">Haul-away</option>
+              <option value="Fixture swaps">Fixture swaps</option>
+              <option value="Other">Other</option>
+            </select></div>
+        </div>
+        <div class="f-field"><label for="f-desc">Job description <span class="req">*</span></label><textarea id="f-desc" name="job_description" rows="6" required></textarea></div>
+        <div class="f-field"><label for="f-time">Preferred timeframe <span class="opt">(optional)</span></label><input id="f-time" name="preferred_timeframe" type="text" placeholder="For example: before Memorial Day, or within two weeks"></div>
+        <p>Have photos? Email them to <a href="mailto:email@adirondackcraftworks.com">email@adirondackcraftworks.com</a> after you submit.</p>
+        <p class="note">We do not offer licensed plumbing or electrical work.</p>
+        <button class="btn brass" type="submit">Send quote request</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<div class="rope" aria-hidden="true"></div>
+<footer class="foot">
+  <img src="images/logo-full.png" width="245" height="213" alt="Adirondack Craftworks logo" loading="lazy">
+  <p>Mobile property care and handyman services</p>
+  <p>Serving Queensbury, Glens Falls, and Schroon Lake</p>
+  <p><a href="mailto:email@adirondackcraftworks.com">email@adirondackcraftworks.com</a> &middot; <span class="ph">[PLACEHOLDER: phone number]</span></p>
+  <p class="small">&copy; 2026 Adirondack Craftworks LLC</p>
+</footer>
+</body>
+</html>
