@@ -142,3 +142,5 @@ h3{color:var(--brass-hi);font-size:1.15rem;margin:0 0 .5rem;font-weight:600}
 .quote-form{max-width:640px;margin:2rem auto 0;text-align:left}
 .req{color:var(--brass-hi)}
 @media (max-width:860px){.two{grid-template-columns:1fr}}
+.ph-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.5rem}
+@media (max-width:860px){.ph-grid{grid-template-columns:1fr}}
