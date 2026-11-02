@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Owner Portal (sample) | Adirondack Craftworks</title>
+<meta name="description" content="Prototype of the Adirondack Craftworks home-watch owner portal, shown with sample data.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/portal.css">
+<link rel="icon" href="../images/logo-mark.png" type="image/png">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="preview-flag">Preview only. Not the live site.</div>
+<div class="proto" role="note">Prototype with sample data. No real accounts, logins, or billing.</div>
+<header class="bar">
+  <a class="brand" href="../index.html" aria-label="Adirondack Craftworks, home"><img src="../images/logo-mark.png" width="117" height="125" alt=""><span>Adirondack Craftworks</span></a>
+  <nav aria-label="Main">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../services.html">Services</a></li>
+      <li><a href="../furniture-signs.html">Furniture &amp; Signs</a></li>
+      <li><a href="../about.html">About</a></li>
+      <li><a href="index.html" aria-current="page">Owner Portal</a></li>
+      <li><a href="../quote.html" class="nav-cta">Request a Quote</a></li>
+    </ul>
+  </nav>
+</header>
+<div class="rope" aria-hidden="true"></div>
+
+<main id="main" class="dash">
+  <div class="wrap">
+    <div class="dash-head">
+      <div><p class="kicker">Owner portal &middot; Sample data</p><h1>Welcome, Sample Owner</h1></div>
+      <a href="index.html">Exit sample portal</a>
+    </div>
+    <div class="grid">
+      <section class="panel" aria-labelledby="p-prop">
+        <span class="sample">Sample data</span>
+        <h2 id="p-prop">Your property</h2>
+        <div class="prop">
+          <div class="pic" role="img" aria-label="Sample property photo"></div>
+          <div>
+            <h3>Pine Ridge Camp (sample)</h3>
+            <p>123 Sample Road, Anytown, NY (fictional address)</p>
+            <dl>
+              <dt>Plan</dt><dd>Home watch, weekly visits (sample)</dd>
+              <dt>Next visit</dt><dd>Nov 5, 2026 (sample)</dd>
+              <dt>Last visit</dt><dd>Oct 29, 2026: all clear</dd>
+              <dt>Sensors</dt><dd>7 sensors reporting, 1 on watch</dd>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel half" aria-labelledby="p-visits">
+        <span class="sample">Sample data</span>
+        <h2 id="p-visits">Visit log</h2>
+        <ul class="visits">
+        <li class="visit"><span class="date">Oct 29, 2026</span><div><h3>Routine home watch visit</h3><p>Walked the interior and exterior. Heat holding at 55&deg;F. No leaks, no pests, mail brought in. Checked doors and windows.</p><div class="thumbs"><button type="button" data-full="../images/area-view-1000.jpg" data-cap="Oct 29, 2026: Routine home watch visit"><img src="../images/area-view-1000.jpg" alt="Visit photo from Oct 29, 2026" width="72" height="54" loading="lazy"></button><button type="button" data-full="../images/wooded-path-1000.jpg" data-cap="Oct 29, 2026: Routine home watch visit"><img src="../images/wooded-path-1000.jpg" alt="Visit photo from Oct 29, 2026" width="72" height="54" loading="lazy"></button></div></div></li>
+        <li class="visit"><span class="date">Oct 22, 2026</span><div><h3>Storm check</h3><p>Checked after high winds. Two branches cleared from the driveway. No roof or siding damage seen.</p><div class="thumbs"><button type="button" data-full="../images/wooded-path-1000.jpg" data-cap="Oct 22, 2026: Storm check"><img src="../images/wooded-path-1000.jpg" alt="Visit photo from Oct 22, 2026" width="72" height="54" loading="lazy"></button><button type="button" data-full="../images/leaves-in-lake-1000.jpg" data-cap="Oct 22, 2026: Storm check"><img src="../images/leaves-in-lake-1000.jpg" alt="Visit photo from Oct 22, 2026" width="72" height="54" loading="lazy"></button><button type="button" data-full="../images/area-view-1000.jpg" data-cap="Oct 22, 2026: Storm check"><img src="../images/area-view-1000.jpg" alt="Visit photo from Oct 22, 2026" width="72" height="54" loading="lazy"></button></div></div></li>
+        <li class="visit"><span class="date">Oct 15, 2026</span><div><h3>Seasonal closing</h3><p>Outdoor furniture stored, gutters cleared, exterior hose bibs shut off and drained. Thermostat set to 55&deg;F.</p><div class="thumbs"><button type="button" data-full="../images/leaves-in-lake-1000.jpg" data-cap="Oct 15, 2026: Seasonal closing"><img src="../images/leaves-in-lake-1000.jpg" alt="Visit photo from Oct 15, 2026" width="72" height="54" loading="lazy"></button></div></div></li>
+        <li class="visit"><span class="date">Oct 1, 2026</span><div><h3>Routine home watch visit</h3><p>All clear. Ran taps and flushed toilets. Replaced a burned-out porch light bulb (owner approved).</p><div class="thumbs"><button type="button" data-full="../images/area-view-1000.jpg" data-cap="Oct 1, 2026: Routine home watch visit"><img src="../images/area-view-1000.jpg" alt="Visit photo from Oct 1, 2026" width="72" height="54" loading="lazy"></button><button type="button" data-full="../images/leaves-in-lake-1000.jpg" data-cap="Oct 1, 2026: Routine home watch visit"><img src="../images/leaves-in-lake-1000.jpg" alt="Visit photo from Oct 1, 2026" width="72" height="54" loading="lazy"></button></div></div></li>
+        </ul>
+      </section>
+
+      <section class="panel half" aria-labelledby="p-sens">
+        <span class="sample">Sample data</span>
+        <h2 id="p-sens">Sensor alerts</h2>
+        <div class="filter" role="group" aria-label="Filter sensor readings">
+          <button type="button" data-f="all" aria-pressed="true">All</button>
+          <button type="button" data-f="open" aria-pressed="false">Current</button>
+          <button type="button" data-f="resolved" aria-pressed="false">Resolved</button>
+        </div>
+        <table class="sensors">
+          <thead><tr><th>Sensor</th><th>Location</th><th>Reading</th><th>Status</th><th>Updated</th></tr></thead>
+          <tbody>
+          <tr data-state="open" data-level="ok"><td>Temperature</td><td>Living room</td><td>55&deg;F</td><td><span class="st ok">Normal</span></td><td>Oct 31, 2026, 9:00 PM</td></tr>
+          <tr data-state="open" data-level="watch"><td>Temperature</td><td>Crawl space</td><td>41&deg;F</td><td><span class="st watch">Watch: below 45&deg;F</span></td><td>Oct 31, 2026, 6:10 AM</td></tr>
+          <tr data-state="open" data-level="ok"><td>Humidity</td><td>Basement</td><td>58%</td><td><span class="st ok">Normal</span></td><td>Oct 31, 2026, 9:00 PM</td></tr>
+          <tr data-state="open" data-level="ok"><td>Water leak</td><td>Water heater</td><td>Dry</td><td><span class="st ok">Normal</span></td><td>Oct 31, 2026, 9:00 PM</td></tr>
+          <tr data-state="resolved" data-level="resolved"><td>Water leak</td><td>Kitchen sink</td><td>Wet, then dry</td><td><span class="st resolved">Resolved: drip fixed at Oct 29 visit</span></td><td>Oct 27, 2026, 2:42 PM</td></tr>
+          <tr data-state="open" data-level="ok"><td>Power</td><td>Main panel</td><td>On</td><td><span class="st ok">Normal</span></td><td>Oct 31, 2026, 9:00 PM</td></tr>
+          <tr data-state="resolved" data-level="resolved"><td>Power</td><td>Main panel</td><td>Outage 47 min</td><td><span class="st resolved">Resolved: power restored</span></td><td>Oct 22, 2026, 1:15 AM</td></tr>
+          </tbody>
+        </table>
+        <p class="small">Sample readings. Real sensor hardware and alert delivery are not set up.</p>
+      </section>
+
+      <section class="panel" aria-labelledby="p-drone">
+        <span class="sample">Sample data</span>
+        <h2 id="p-drone">Drone reports</h2>
+        <div class="drone">
+          <div>
+            <span class="pending">Pending FAA Part 107 certification</span>
+            <p>Aerial roof and grounds checks will appear here once FAA Part 107 certification is in place. Until then, no drone flights are offered.</p>
+            <p class="small">Planned report: roof overview, gutters and chimney, tree and storm damage, and a seasonal comparison.</p>
+          </div>
+          <div class="frame">Drone report preview<br>Not available yet</div>
+        </div>
+      </section>
+
+      <section class="panel" aria-labelledby="p-plan">
+        <span class="sample">Sample data</span>
+        <h2 id="p-plan">Subscription and plan</h2>
+        <ul class="plans">
+          <li><h3>Monthly check</h3><p class="price">$TBD / month</p><p>One home watch visit per month with a photo report.</p></li>
+          <li class="cur"><h3>Weekly watch (current sample plan)</h3><p class="price">$TBD / month</p><p>Weekly visits, photo reports, sensor alert monitoring, and storm checks.</p></li>
+          <li><h3>Seasonal care</h3><p class="price">$TBD / season</p><p>Weekly watch plus seasonal opening and closing.</p></li>
+        </ul>
+        <p><button class="btn brass" type="button" disabled aria-disabled="true">Billing coming soon</button></p>
+        <p class="small">Prices to be set. Online billing is not set up, and nothing on this page charges a card.</p>
+      </section>
+    </div>
+  </div>
+</main>
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Visit photo"><img src="" alt=""><p></p></div>
+
+<div class="rope" aria-hidden="true"></div>
+<footer class="foot">
+  <img src="../images/logo-full.png" width="245" height="213" alt="Adirondack Craftworks logo" loading="lazy">
+  <p>Mobile property care and handyman services</p>
+  <p>Serving Queensbury, Glens Falls, and Schroon Lake</p>
+  <p><a href="mailto:email@adirondackcraftworks.com">email@adirondackcraftworks.com</a> &middot; <span class="ph">[PLACEHOLDER: phone number]</span></p>
+  <p class="small">&copy; 2026 Adirondack Craftworks LLC</p>
+</footer>
+<script src="portal.js"></script>
+</body>
+</html>
