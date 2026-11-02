@@ -59,8 +59,6 @@ h2{font-size:clamp(1.9rem,4.4vw,3rem);margin:0 0 1.2rem;line-height:1.1;font-wei
 .m-steel{background:url(../tex/steel.webp) center/300px auto}
 .m-brass{background:url(../tex/brass.webp) center/300px auto}
 .m-led{background:radial-gradient(circle,#fff8e6 0 22%,#ffd27a 40%,#3a2a10 72%);box-shadow:0 0 18px 4px rgba(255,200,110,.55),0 0 0 3px #1a1206,0 0 0 5px var(--brass)}
-.boards{max-width:820px;text-align:center}
-.boards .big{font-style:italic;font-weight:700}
 .cols{display:grid;grid-template-columns:1fr 1fr;gap:2rem}
 .cols article{padding:1.6rem;border:1px solid rgba(201,164,92,.45);background:rgba(8,16,30,.55)}
 h3{color:var(--brass-hi);font-size:1.15rem;margin:0 0 .5rem;font-weight:600}
